@@ -14,10 +14,10 @@ if uname == "Darwin" then
         {
             "catppuccin/nvim",
             name = "catppuccin",
+            lazy = false,
             priority = 1000,
             config = function()
-                vim.cmd.colorscheme("catppuccin-macchiato")
-                ColorMyPencils();
+                ColorMyPencils("catppuccin-macchiato");
             end,
         }
     }
@@ -35,7 +35,7 @@ elseif uname == "Linux" then
                 require("everforest").setup({
                     -- Your config here
                 })
-                ColorMyPencils();
+                ColorMyPencils("everforest");
             end,
         }
     }
