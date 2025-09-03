@@ -3,5 +3,5 @@
 Messy mix of basic stuff to sync between devices
 
 todo:
-- add syntax for {} auto thing. idk what its called. 
+ - add something to assist with writing in C
  
